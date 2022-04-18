@@ -73,7 +73,6 @@ class PersonControllerTest {
                   .param("name","martin22"))
                 .andDo(print())
                 .andExpect(status().isOk());
-
     }
 
 }
